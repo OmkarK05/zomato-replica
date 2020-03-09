@@ -145,12 +145,12 @@ $desktop : 756px;
        }
 
       
-        #search-rest{
+        #search-res{
             width: 500px;
             height: auto;
             border-radius: 20px;
             border: white;
-            margin: $padding;
+            margin: 5px;
 
             @include desktop{
                 width: 250px;
@@ -158,12 +158,13 @@ $desktop : 756px;
      
         }
         #search-loc{
+            margin-top: 20px;
             width:  200px;
             height: auto;
             border-radius: 20px;
             border: white;
             @include desktop{
-                width: 150px;
+                width: 250px;
             }
      
         }

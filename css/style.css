@@ -202,21 +202,22 @@ html {
   }
 }
 
-.search-restaurant #search-rest {
+.search-restaurant #search-res {
   width: 500px;
   height: auto;
   border-radius: 20px;
   border: white;
-  margin: 15px;
+  margin: 5px;
 }
 
 @media (max-width: 756px) {
-  .search-restaurant #search-rest {
+  .search-restaurant #search-res {
     width: 250px;
   }
 }
 
 .search-restaurant #search-loc {
+  margin-top: 20px;
   width: 200px;
   height: auto;
   border-radius: 20px;
@@ -225,7 +226,7 @@ html {
 
 @media (max-width: 756px) {
   .search-restaurant #search-loc {
-    width: 150px;
+    width: 250px;
   }
 }
 
