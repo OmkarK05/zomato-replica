@@ -14,7 +14,7 @@
   
     <body>
 
-        <header class="header-container">
+        <header class="h-container">
                     <div class="left">
                         <a href="#" class="header-left">
                             
@@ -27,16 +27,16 @@
                             <a href="#" id="nav_item_1">
                                 <li>
                                     <img src="images/order-online.svg">
-                                    <span>Order Food</span>
+                                    <span>ORDER FOOD</span>
                                 </li>
                             </a>
-                            <a href="#" id="nav-item-2">
+                            <a href="#" id="nav_item_2">
                                 <li>
                                     <img src="images/book-a-table.svg">
                                     <span>Book a Table</span>
                                 </li>
                             </a>
-                            <a href="#" id="nav-item-3">
+                            <a href="#" id="nav_item_3">
                                 <li>
                                     <img src="images/gold.svg">
                                     <span>Zomato Gold</span>
@@ -72,13 +72,13 @@
                                 </div>
                             
                             
-                                <div  id="search-res">
+                                <div  id="search-rest">
                                 
                                 <input type="text" class="form-control" placeholder="Search for restaurants or cafes..." id="inputCity">
                                 </div>
                               
                     
-                            <div ><button class=" search-btn btn">Search</button></div>
+                            <div ><button id="search-btn" class="search-btn btn">Search</button></div>
                         </div>
                  
                 
@@ -86,18 +86,17 @@
         </section>
           
         <div class="widget">
-
+           
             <div class="search-delivery">
-                <h4>Enter your delivery location</h4>
-                <p>Best restaurants delivering to your doorstep</p>
+              
                
                 <div class="search-white">
-                    <h5>Enter your Delivery location</h5>
+                    <h4>Enter your Delivery location</h4>
                 <span >
-                    <input class="search-del" type="text" placeholder="Type delivery location here">
-                    <button class="btnn" type="submit"><p class="fa">Detect</p></button>
+                    <input id="search-del" class="search-del" type="text" placeholder="Type delivery location here">
+                    <button class="detect-btn" type="submit"><p class="fa">Detect</p></button>
                 </span> 
-                    <button class=" btn ">Order Food Online!</button>
+                    <button class="order-btn btn">Order Food Online!</button>
                     <p class="line"></p>
                     <h5 class="offer">Use code <strong>ZOMATO</strong> to get up to 50% OFF. T&Cs apply.</h5>
                 </div>
@@ -176,7 +175,7 @@
                  <p id="cat-subtitle">Discover restaurants by type of meal</p>
             </div>
             <div class="categories-box">
-                 <ul id="category-list">
+                 <ul id="category-list" class="category-list" >
                     <li><img src="images/delivery.png"><p>Delivery</p></li>
                     <li><img src="images/pocket-friendly-delivery.png"><p>Pocket-Friendly Delivery</p></li>                        
                     <li><img src="images/breakfast.png"><p>Breakfast</p></li>                        
@@ -352,3 +351,4 @@
             <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
     </body>
 </html>
+

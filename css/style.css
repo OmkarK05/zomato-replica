@@ -20,7 +20,7 @@ html {
   line-height: 1.30769231;
 }
 
-.header-container {
+.h-container {
   background: white;
   width: 100%;
   height: auto;
@@ -31,7 +31,7 @@ html {
       grid-template-areas: "right left";
 }
 
-.header-container .left {
+.h-container .left {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: right;
@@ -43,14 +43,14 @@ html {
 }
 
 @media (max-width: 756px) {
-  .header-container .left {
+  .h-container .left {
     position: relative;
     top: 15px;
     margin-left: 0px;
   }
 }
 
-.header-container .right {
+.h-container .right {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: left;
@@ -59,7 +59,7 @@ html {
 }
 
 @media (max-width: 756px) {
-  .header-container .right {
+  .h-container .right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -74,38 +74,38 @@ html {
   }
 }
 
-.header-container .right ul li {
+.h-container .right ul li {
   display: inline;
   padding: 0px 15px;
   float: right;
 }
 
 @media (max-width: 756px) {
-  .header-container .right ul li {
+  .h-container .right ul li {
     float: right;
     padding: 2px 15px;
   }
 }
 
-.header-container img {
+.h-container img {
   max-width: 40px;
   height: auto;
 }
 
 @media (max-width: 756px) {
-  .header-container img {
+  .h-container img {
     width: 20px;
   }
 }
 
-.header-container a {
+.h-container a {
   color: #4a4646;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 @media (max-width: 756px) {
-  .header-container a {
+  .h-container a {
     font-size: 12px;
   }
 }
@@ -202,7 +202,7 @@ html {
   }
 }
 
-.search-restaurant #search-res {
+.search-restaurant #search-rest {
   width: 500px;
   height: auto;
   border-radius: 20px;
@@ -211,7 +211,7 @@ html {
 }
 
 @media (max-width: 756px) {
-  .search-restaurant #search-res {
+  .search-restaurant #search-rest {
     width: 250px;
   }
 }
@@ -313,7 +313,7 @@ html {
   }
 }
 
-.search-delivery .search-white .btnn {
+.search-delivery .search-white .detect-btn {
   padding: 5px;
   background: #e1e1e1;
   border: 0px;
@@ -324,7 +324,7 @@ html {
 }
 
 @media (max-width: 756px) {
-  .search-delivery .search-white .btnn {
+  .search-delivery .search-white .detect-btn {
     font-size: 12px;
     width: 17%;
   }
