@@ -101,7 +101,7 @@ html {
 .h-container a {
   color: #4a4646;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 @media (max-width: 756px) {
@@ -191,6 +191,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px 0px;
 }
 
 @media (max-width: 756px) {
@@ -217,7 +218,7 @@ html {
 }
 
 .search-restaurant #search-loc {
-  margin-top: 20px;
+  margin-top: 0px;
   width: 200px;
   height: auto;
   border-radius: 20px;
