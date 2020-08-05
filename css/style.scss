@@ -116,7 +116,6 @@ $desktop: 756px;
       background-color: none;
       color: white;
     }
-<<<<<<< HEAD
   }
 }
 .search {
@@ -129,15 +128,6 @@ $desktop: 756px;
     width: 200px;
     @include desktop {
       width: 100px;
-=======
-    a{
-        color: rgb(74, 70, 70);
-        text-decoration: none;
-        text-transform: uppercase;
-        @include desktop{
-            font-size: 12px;
-        }
->>>>>>> parent of ccc4649... changes made
     }
   }
   h2 {
@@ -196,7 +186,6 @@ $desktop: 756px;
       font-size: 12px;
       margin-bottom: $padding * 3;
     }
-<<<<<<< HEAD
   }
 }
 
@@ -208,73 +197,6 @@ $desktop: 756px;
     "zomaland search"
     "collection search";
   padding: $padding;
-=======
-    .search-restaurant{
-      
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-       
-       @include desktop{
-           flex-direction: column;
-       }
-
-      
-        #search-res{
-            width: 500px;
-            height: auto;
-            border-radius: 20px;
-            border: white;
-            margin: 5px;
-
-            @include desktop{
-                width: 250px;
-            }
-     
-        }
-        #search-loc{
-            margin-top: 20px;
-            width:  200px;
-            height: auto;
-            border-radius: 20px;
-            border: white;
-            @include desktop{
-                width: 250px;
-            }
-     
-        }
-
-        .search-btn{
-            background-color: rgb(255, 61, 61);
-            color: white;
-            border-radius: 5px;
-            width: 100px;
-            height: 35px;
-            font-size: 16px;
-            text-align: center;
-            box-shadow: 0px 0px 8px 1px #f8f3f3;
-
-            @include desktop{
-                width: 75px;
-                height: 30px;
-                font-size: 12px ;
-                margin-bottom: $padding*3;
-            }
-     
-          }
-     }
-
-
-.widget{
-    display: grid;
-    grid-row: auto;
-    grid-template-columns: 70% 30%;
-    grid-template-areas: 
-    'zomaland search'
-    'collection search' ;
-    padding: $padding;
->>>>>>> parent of ccc4649... changes made
 
   @include desktop {
     grid-row: 30% auto;
@@ -392,14 +314,15 @@ $desktop: 756px;
   }
   .collection-footer {
     grid-area: collection;
-    margin: 0 auto;
+    margin: 5px auto;
     width: 40%;
     padding: $padding - 5;
     height: auto;
     text-align: center;
-    background-color: white;
-    color: rgb(255, 61, 61);
-    background-color: rgb(250, 207, 207);
+    background-color: rgb(255, 61, 61);
+    color: white;
+    box-shadow: 0px 0px 5px rgb(185, 182, 182);
+    border-radius: 5px;
     cursor: pointer;
 
     @include desktop() {
